@@ -1,0 +1,15 @@
+# Build artifacts
+/target/
+/pkg/
+
+# Agent / tool state
+.mimosa/
+.codebuddy/
+.graphify-out/
+
+# Secrets and credentials — never commit
+.env
+*.pem
+*.key
+credentials*
+router-mcp.secret
